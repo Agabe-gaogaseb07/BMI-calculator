@@ -9,4 +9,4 @@ weight = float(input("Enter your weight in kg?: "))
 BMI = float(int(weight) / int(height**2))
 
 #Using the f-string it will print out what is your Body Mass Index(BMI).
-
+print(f"Your BMI is, {BMI}")
